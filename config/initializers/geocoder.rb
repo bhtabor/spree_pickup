@@ -11,7 +11,7 @@ Geocoder.configure(
   units: :km,
 
   #api_key
-  key: Rails.application.credentials.google[:geocode_api_key],
+  api_key: Rails.application.credentials.google[:geocode_api_key],
 
   #use_https
   use_https: true
